@@ -3,31 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://www.easyheart.me/markdown%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2020-04-30T15:49:43+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/markdown%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95/</loc>
+    <loc>https://www.easyheart.me/post/markdown%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2020-04-30T15:59:06+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.easyheart.me/post/</loc>
+    <lastmod>2020-04-30T15:59:06+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.easyheart.me/</loc>
     <lastmod>2020-04-30T15:49:43+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/post/markdown%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2020-04-30T15:59:06+08:00</lastmod>
+    <loc>https://www.easyheart.me/categories/</loc>
   </url>
   
   <url>
-    <loc>https://example.com/post/</loc>
-    <lastmod>2020-04-30T15:59:06+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://www.easyheart.me/tags/</loc>
   </url>
   
 </urlset>

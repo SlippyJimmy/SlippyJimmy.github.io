@@ -7,34 +7,34 @@
 
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Hugo 主题 MemE</title>
-        <link>https://example.com/</link>
+        <title>心微憩</title>
+        <link>https://www.easyheart.me/</link>
         <description>MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</description>
         <generator>Hugo 0.69.1 https://gohugo.io/</generator>
         
             <language>zh-CN</language>
         
         
-            <managingEditor>reuixiy@gmail.com (reuixiy)</managingEditor>
+            <managingEditor>tsdybk@gmail.com (Joewen)</managingEditor>
         
         
-            <webMaster>reuixiy@gmail.com (reuixiy)</webMaster>
+            <webMaster>tsdybk@gmail.com (Joewen)</webMaster>
         
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Thu, 30 Apr 2020 16:45:24 +0800</lastBuildDate>
+        <lastBuildDate>Thu, 30 Apr 2020 17:20:50 +0800</lastBuildDate>
         
-            <atom:link rel="self" type="application/rss+xml" href="https://example.com/rss.xml" />
+            <atom:link rel="self" type="application/rss+xml" href="https://www.easyheart.me/rss.xml" />
         
         
             <item>
                 <title>Markdown语法测试</title>
-                <link>https://example.com/post/markdown%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95/</link>
-                <guid isPermaLink="true">https://example.com/post/markdown%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95/</guid>
+                <link>https://www.easyheart.me/post/markdown%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95/</link>
+                <guid isPermaLink="true">https://www.easyheart.me/post/markdown%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95/</guid>
                 <pubDate>Thu, 30 Apr 2020 15:38:09 +0800</pubDate>
                 
-                    <author>reuixiy@gmail.com (reuixiy)</author>
+                    <author>tsdybk@gmail.com (Joewen)</author>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
