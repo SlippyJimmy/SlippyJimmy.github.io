@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">心微憩</title>
     <subtitle type="html">MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</subtitle>
-    <updated>2020-05-03T10:32:46+08:00</updated>
+    <updated>2020-05-03T22:46:42+08:00</updated>
     <id>https://www.easyheart.me/</id>
     <link rel="alternate" type="text/html" href="https://www.easyheart.me/" />
     <link rel="self" type="application/atom+xml" href="https://www.easyheart.me/atom.xml" />
@@ -20,16 +20,64 @@
             <title type="text">ClashX使用教程</title>
             <link rel="alternate" type="text/html" href="https://www.easyheart.me/post/clashx%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/" />
             <id>https://www.easyheart.me/post/clashx%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</id>
-            <updated>2020-05-03T10:31:03+08:00</updated>
+            <updated>2020-05-03T22:46:30+08:00</updated>
             <published>2020-05-03T10:31:03+08:00</published>
             <author>
                     <name>Joewen</name>
                     <uri>https://io-oi.me/</uri>
                     <email>tsdybk@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html"><![CDATA[]]></summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
+    
+    <summary type="html"><![CDATA[SSR/SS 订阅链接转 ClashX 订阅 写在前面 使用 SSR 由来已久，但是他的 pac 代理模式和全局模式都很一般，在命……]]></summary>
             
-                <content type="html"><![CDATA[]]></content>
+                <content type="html"><![CDATA[<h1 id="ssrss-订阅链接转-clashx-订阅">SSR/SS 订阅链接转 ClashX 订阅</h1>
+<h2 id="写在前面">写在前面</h2>
+<p>使用 SSR 由来已久，但是他的 pac 代理模式和全局模式都很一般，在命令行代理时并不完美，就萌生了想换个代理工具试试的想法。把目标锁定在 Surge 和 ClashX 两个软件，但是 Surge 要收费
+（并且网上的破解版只有 2.x 版,不兼容 mac15）,于是选择了同样优秀的 ClashX。</p>
+<h2 id="clashx-安装">ClashX 安装</h2>
+<p>ClashX 下载地址：</p>
+<p><a href="https://github.com/yichengchen/clashX/releases">ClashX</a></p>
+<p>下载完毕安装即可</p>
+<h2 id="订阅链接转换">订阅链接转换</h2>
+<ol>
+<li>subconverter 下载</li>
+</ol>
+<p>使用工具：<strong>subconverter</strong></p>
+<p><a href="https://github.com/tindy2013/subconverter">Github 地址</a></p>
+<p>subconverter 是一款开源的、实现各种订阅链接相互转换的小工具，使用起来很方便</p>
+<p>在<a href="https://github.com/tindy2013/subconverter/releases">这个链接</a> 下载 Mac 即 darwin64 版本[1]</p>
+<ol start="2">
+<li>
+<p>subconverter 使用
+切换到 subconverter 根目录, 并执行 该路径下的可执行文件<code>subconverter</code>[2]。</p>
+<pre><code>cd xxx/subconverter
+./subconverter
+</code></pre></li>
+<li>
+<p>转换订阅链接
+首先，在<a href="">这个网站</a>将原订阅链接转码(encode)
+<img src="https://i.loli.net/2020/05/03/NVhDXcpWJEUAzBo.png" alt="ClashX-encode"></p>
+<p>然后，在浏览器输入如下网址[3]:</p>
+</li>
+</ol>
+<pre><code>http://127.0.0.1:25500/sub?target=clash&amp;url=A     # A 为上一步得到的链接
+</code></pre><p>如果网页显示配置信息，就说明转换成功</p>
+<ol start="4">
+<li>将转换完成的订阅链接添加到 ClashX
+打开 ClashX, 右键桌面顶栏小图标， 依次点击配置 —&gt; 配置托管 -&gt; 管理, 添加并更新上一步的订阅链接, enjoy it!</li>
+</ol>
+<h2 id="总结">总结：</h2>
+<p>subconverter 这个工具能实现各种形式的订阅 链接之间的转换，十分方便。本人只演示了 SSR 转 Clash 的过程， 对其他方面感
+兴趣的朋友的可以阅读作者 Github 上的文档。</p>
+<p>另外，使用这个方法有一个小小的弊端，不能做到时时更新。在不运行 subconverter
+工具时，是更新不了服务器信息的。好在我用的机场还算是很稳定， 服务器更新频率很低, 用了快一个月了，订阅里的服
+务器绝大多数还能用。服务器信息变动很大的朋友也不用担心， 打开 subconverter 重新跑一遍即可</p>
+<p>+++
+[1] Windows 或者 Linux 系统下载对应版本</p>
+<p>[2] Linux 下同理，Windows 下 双击 subconverter.exe</p>
+<p>[3] 这里以转 Clash 为例，转其他类型需要更换 <code>clash</code> 字段</p>
+]]></content>
             
             
             
