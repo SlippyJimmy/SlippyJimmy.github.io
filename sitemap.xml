@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.com/defx/</loc>
-    <lastmod>2021-01-27T21:28:06+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://example.com/post/defx/</loc>
     <lastmod>2021-01-29T09:47:43+08:00</lastmod>
   </url>
@@ -23,7 +18,7 @@
   </url>
   
   <url>
-    <loc>https://example.com/picgo-core-&#43;-github/</loc>
+    <loc>https://example.com/post/picgo-core-&#43;-github/</loc>
     <lastmod>2021-01-27T20:55:15+08:00</lastmod>
   </url>
   
