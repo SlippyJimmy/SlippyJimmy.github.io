@@ -8,9 +8,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>心微憩</title>
-        <link>https://www.easyheart.me/</link>
+        <link>https://example.com/</link>
         <description>MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</description>
-        <generator>Hugo 0.69.1 https://gohugo.io/</generator>
+        <generator>Hugo 0.79.0 https://gohugo.io/</generator>
         
             <language>zh-CN</language>
         
@@ -23,15 +23,51 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Sun, 03 May 2020 22:59:30 +0800</lastBuildDate>
+        <lastBuildDate>Fri, 29 Jan 2021 09:54:26 +0800</lastBuildDate>
         
-            <atom:link rel="self" type="application/rss+xml" href="https://www.easyheart.me/rss.xml" />
+            <atom:link rel="self" type="application/rss+xml" href="https://example.com/rss.xml" />
         
         
             <item>
+                <title>Defx</title>
+                <link>https://example.com/post/defx/</link>
+                <guid isPermaLink="true">https://example.com/post/defx/</guid>
+                <pubDate>Wed, 27 Jan 2021 21:20:33 +0800</pubDate>
+                
+                    <author>tsdybk@gmail.com (Joewen)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description><![CDATA[<p>Defx 基本使用快捷键</p>
+<ol>
+<li>
+<p>打开方式 Space-E</p>
+</li>
+<li>
+<p>上下移动光标 jk</p>
+</li>
+<li>
+<p>展开返回 lh</p>
+</li>
+</ol>
+]]></description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
+        
+            <item>
                 <title>ClashX使用教程</title>
-                <link>https://www.easyheart.me/post/clashx%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</link>
-                <guid isPermaLink="true">https://www.easyheart.me/post/clashx%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</guid>
+                <link>https://example.com/post/clashx%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</link>
+                <guid isPermaLink="true">https://example.com/post/clashx%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/</guid>
                 <pubDate>Sun, 03 May 2020 10:31:03 +0800</pubDate>
                 
                     <author>tsdybk@gmail.com (Joewen)</author>
@@ -112,8 +148,8 @@
         
             <item>
                 <title>Markdown语法测试</title>
-                <link>https://www.easyheart.me/post/markdown%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95/</link>
-                <guid isPermaLink="true">https://www.easyheart.me/post/markdown%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95/</guid>
+                <link>https://example.com/post/markdown%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95/</link>
+                <guid isPermaLink="true">https://example.com/post/markdown%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95/</guid>
                 <pubDate>Thu, 30 Apr 2020 15:38:09 +0800</pubDate>
                 
                     <author>tsdybk@gmail.com (Joewen)</author>
@@ -337,25 +373,25 @@ D--&gt;&gt;A: Dashed open arrow
 <thead>
 <tr>
 <th>项目</th>
-<th align="right">价格</th>
-<th align="center">数量</th>
+<th style="text-align:right">价格</th>
+<th style="text-align:center">数量</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>计算机</td>
-<td align="right">$1600</td>
-<td align="center">5</td>
+<td style="text-align:right">$1600</td>
+<td style="text-align:center">5</td>
 </tr>
 <tr>
 <td>手机</td>
-<td align="right">$12</td>
-<td align="center">12</td>
+<td style="text-align:right">$12</td>
+<td style="text-align:center">12</td>
 </tr>
 <tr>
 <td>管线</td>
-<td align="right">$1</td>
-<td align="center">234</td>
+<td style="text-align:right">$1</td>
+<td style="text-align:center">234</td>
 </tr>
 </tbody>
 </table>
