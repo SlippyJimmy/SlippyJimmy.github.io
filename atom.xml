@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">心微憩</title>
     <subtitle type="html">MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</subtitle>
-    <updated>2021-01-31T20:53:33+08:00</updated>
+    <updated>2021-01-31T21:36:39+08:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom+xml" href="https://example.com/atom.xml" />
@@ -17,17 +17,19 @@
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.80.0">Hugo</generator>
         <entry>
-            <title type="text">Defx本基使用方法</title>
+            <title type="text">Defx基本使用方法</title>
             <link rel="alternate" type="text/html" href="https://example.com/post/defx%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/" />
             <id>https://example.com/post/defx%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</id>
-            <updated>2021-01-31T20:53:20+08:00</updated>
+            <updated>2021-01-31T21:36:34+08:00</updated>
             <published>2021-01-27T21:20:33+08:00</published>
             <author>
                     <name>Joewen</name>
                     <uri>https://io-oi.me/</uri>
                     <email>tsdybk@gmail.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html"><![CDATA[Defx 基本使用快捷键 打开方式 Space-E 左右跳转 C-jk 上下移动光标 jk 展开返回 lh 新建文件 N 重命名 rhttp://localhost:1313/]]></summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
+    
+    <summary type="html"><![CDATA[Defx 基本使用快捷键 打开方式 Space-E 左右跳转 C-jk 上下移动光标 jk 展开返回 lh 新建文件 N 重命名 r 参考:……]]></summary>
             
                 <content type="html"><![CDATA[<p>Defx 基本使用快捷键</p>
 <ol>
@@ -47,9 +49,11 @@
 <p>新建文件 N</p>
 </li>
 <li>
-<p>重命名 rhttp://localhost:1313/</p>
+<p>重命名 r</p>
 </li>
 </ol>
+<p>参考: <a href="https://github.com/hardcoreplayers/ThinkVim/wiki/Shortcuts#shorcutsv">ThinkVim Shortcuts</a>
+<img src="https://cdn.jsdelivr.net/gh/SlippyJimmy/PicGo/imgSnipaste_2020-05-03_22-07-32.png" alt="ejkjflskjd"></p>
 ]]></content>
             
             
