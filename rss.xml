@@ -10,7 +10,7 @@
         <title>心微憩</title>
         <link>https://example.com/</link>
         <description>MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</description>
-        <generator>Hugo 0.79.0 https://gohugo.io/</generator>
+        <generator>Hugo 0.80.0 https://gohugo.io/</generator>
         
             <language>zh-CN</language>
         
@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Fri, 29 Jan 2021 10:23:09 +0800</lastBuildDate>
+        <lastBuildDate>Sun, 31 Jan 2021 17:45:46 +0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="https://example.com/rss.xml" />
         
