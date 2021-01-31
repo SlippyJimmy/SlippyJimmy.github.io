@@ -23,15 +23,15 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Sun, 31 Jan 2021 17:52:33 +0800</lastBuildDate>
+        <lastBuildDate>Sun, 31 Jan 2021 18:12:40 +0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="https://example.com/rss.xml" />
         
         
             <item>
                 <title>Defx</title>
-                <link>https://example.com/post/defx/</link>
-                <guid isPermaLink="true">https://example.com/post/defx/</guid>
+                <link>https://example.com/post/defx%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</link>
+                <guid isPermaLink="true">https://example.com/post/defx%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95/</guid>
                 <pubDate>Wed, 27 Jan 2021 21:20:33 +0800</pubDate>
                 
                     <author>tsdybk@gmail.com (Joewen)</author>
@@ -44,10 +44,19 @@
 <p>打开方式 Space-E</p>
 </li>
 <li>
+<p>左右跳转 C-jk</p>
+</li>
+<li>
 <p>上下移动光标 jk</p>
 </li>
 <li>
 <p>展开返回 lh</p>
+</li>
+<li>
+<p>新建文件 N</p>
+</li>
+<li>
+<p>重命名 rhttp://localhost:1313/</p>
 </li>
 </ol>
 ]]></description>
