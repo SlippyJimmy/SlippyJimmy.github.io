@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Mon, 01 Feb 2021 02:26:00 +0800</lastBuildDate>
+        <lastBuildDate>Mon, 01 Feb 2021 02:40:20 +0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="https://example.com/rss.xml" />
         
@@ -76,7 +76,7 @@
             </item>
         
             <item>
-                <title>PicGo Core &#43; Github</title>
+                <title>Picgo-Core &#43; Github &#43; jsDelivr CDN 加速打造免费图床系统</title>
                 <link>https://example.com/post/picgo-core-&#43;-github/</link>
                 <guid isPermaLink="true">https://example.com/post/picgo-core-&#43;-github/</guid>
                 <pubDate>Wed, 27 Jan 2021 20:55:15 +0800</pubDate>
@@ -156,9 +156,11 @@
 </ul>
 </li>
 </ol>
-<p>cao
-<a href="https://picgo.github.io/PicGo-Core-Doc/v">https://picgo.github.io/PicGo-Core-Doc/v</a>
-<a href="https://juejin.cn/post/6844904078468710413">https://juejin.cn/post/6844904078468710413</a></p>
+<hr>
+<hr>
+<p>参考文档：</p>
+<p><a href="https://picgo.github.io/PicGo-Core-Doc/v">https://picgo.github.io/PicGo-Core-Doc/v</a></p>
+<p><a href="https://juejin.cn/post/6844904078468710413">https://juejin.cn/post/6844904078468710413</a></p>
 <section class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
