@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">心微憩</title>
     <subtitle type="html">MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</subtitle>
-    <updated>2021-02-01T02:22:51+08:00</updated>
+    <updated>2021-02-01T02:26:00+08:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom+xml" href="https://example.com/atom.xml" />
@@ -72,7 +72,7 @@
             <title type="text">PicGo Core &#43; Github</title>
             <link rel="alternate" type="text/html" href="https://example.com/post/picgo-core-&#43;-github/" />
             <id>https://example.com/post/picgo-core-&#43;-github/</id>
-            <updated>2021-02-01T02:22:43+08:00</updated>
+            <updated>2021-02-01T02:25:25+08:00</updated>
             <published>2021-01-27T20:55:15+08:00</published>
             <author>
                     <name>Joewen</name>
@@ -81,9 +81,9 @@
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     
-    <summary type="html"><![CDATA[1 GitHub 相关配置 仓库建立 如图，设置 1，2，3 后，点 4 新建博客仓库 然后建立新版本 token 获取 点击……]]></summary>
+    <summary type="html"><![CDATA[1、GitHub 相关配置 仓库建立 如图，设置 1，2，3 后，点 4 新建博客仓库 然后建立新版……]]></summary>
             
-                <content type="html"><![CDATA[<h2 id="1-github-相关配置">1 GitHub 相关配置</h2>
+                <content type="html"><![CDATA[<h2 id="1github-相关配置">1、GitHub 相关配置</h2>
 <ol>
 <li>
 <p>仓库建立
@@ -98,7 +98,7 @@
 </li>
 </ol>
 <p><em>注：token 只能在第一次生成时显示，关闭页面就会隐藏，注意保存</em></p>
-<h2 id="2-picgo-安装及配置文件">2 Picgo 安装及配置文件</h2>
+<h2 id="2picgo-安装及配置文件">2、Picgo 安装及配置文件</h2>
 <ol>
 <li>下载</li>
 </ol>
@@ -137,7 +137,7 @@
 <li>图片上传 <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></li>
 </ol>
 <p>在粘贴板有图片的情况下，使用命令 <code>picgo upload</code> 上传</p>
-<h2 id="3-picgo-插件使用">3 Picgo 插件使用</h2>
+<h2 id="3picgo-插件使用">3、Picgo 插件使用</h2>
 <ol>
 <li>
 <p>githubPlus
