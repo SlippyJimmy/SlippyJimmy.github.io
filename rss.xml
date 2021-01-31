@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Sun, 31 Jan 2021 22:33:14 +0800</lastBuildDate>
+        <lastBuildDate>Mon, 01 Feb 2021 02:10:08 +0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="https://example.com/rss.xml" />
         
@@ -85,7 +85,90 @@
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/SlippyJimmy/PicGo/img/20210131222857.png" alt="test"></p>
+                    <description><![CDATA[<h2 id="1-github-相关配置">1 GitHub 相关配置</h2>
+<ol>
+<li>
+<p>仓库建立
+如图，设置 1，2，3 后，点 4 新建博客仓库
+<img src="https://cdn.jsdelivr.net/gh/SlippyJimmy/PicGo/img/20210131231013.png" alt="新建respositroy">
+然后建立新版本<img src="https://cdn.jsdelivr.net/gh/SlippyJimmy/PicGo/img/20210201011517.png" alt="建立1.0"></p>
+</li>
+<li>
+<p>token 获取
+点击头像 -&gt; Settings -&gt; Developer settings -&gt; Personal access tokens -&gt; generate new token -&gt; Note 描述并勾选 repo 项 -&gt; generate token
+<img src="https://cdn.jsdelivr.net/gh/SlippyJimmy/PicGo/img/20210201013334.png" alt="token"></p>
+</li>
+</ol>
+<p><em>注：token 只能在第一次生成时显示，关闭页面就会隐藏，注意保存</em></p>
+<h2 id="2-picgo-安装及配置文件">2 Picgo 安装及配置文件</h2>
+<ol>
+<li>下载</li>
+</ol>
+<pre><code>yarn global add picgo # 或者 npm install picgo -gv
+</code></pre><ol start="2">
+<li>配置<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></li>
+</ol>
+<p>命令：<code>vi .picgo/config.json</code></p>
+<p>配置：</p>
+<pre><code>{
+  &quot;picBed&quot;: {`vi .picgo/config.json`
+    &quot;uploader&quot;: &quot;githubPlus&quot;,  #使用gitHub-plus插件
+    &quot;current&quot;: &quot;githubPlus&quot;,
+    &quot;githubPlus&quot;: {
+      &quot;branch&quot;: &quot;master&quot;,
+      &quot;customUrl&quot;: &quot;https://cdn.jsdelivr.net/gh/用户名/仓库名&quot;,
+      &quot;origin&quot;: &quot;github&quot;,
+      &quot;repo&quot;: &quot;用户名/仓库名&quot;,
+      &quot;path&quot;: &quot;img&quot;,
+      &quot;token&quot;: &quot;&quot;  #填入获取的token
+    }
+  },
+  &quot;picgoPlugins&quot;: {
+    &quot;picgo-plugin-github-plus&quot;: true,
+    &quot;picgo-plugin-autocopy&quot;: true
+  },
+  &quot;picgo-plugin-github-plus&quot;: {
+    &quot;lastSync&quot;: &quot;2021-02-01 01:33:40&quot;
+  },
+  &quot;picgo-plugin-autocopy&quot;: {
+    &quot;template&quot;: &quot;markdown&quot;
+  }
+}
+</code></pre><ol start="3">
+<li>图片上传 <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></li>
+</ol>
+<p>在粘贴板有图片的情况下，使用命令 <code>picgo upload</code> 上传</p>
+<h2 id="3-picgo-插件使用">3 Picgo 插件使用</h2>
+<ol>
+<li>
+<p>githubPlus
+安装：<code>picgo install github-plus</code></p>
+</li>
+<li>
+<p>autocopy</p>
+<p>很有用的一个插件，能自动复制用命令行上传的链接，本人主要使用 Markdown 格式的</p>
+<ul>
+<li>安装：<code>picgo install autocopy</code></li>
+<li>切换为自动生成 Markdown 链接： <code>picgo set plugin autocopy</code>,
+选取 Markdown 即可
+<img src="https://cdn.jsdelivr.net/gh/SlippyJimmy/PicGo/img/20210131225653.png" alt="autocopy settings"></li>
+</ul>
+</li>
+</ol>
+<p>cao
+<a href="https://picgo.github.io/PicGo-Core-Doc/v">https://picgo.github.io/PicGo-Core-Doc/v</a>
+<a href="https://juejin.cn/post/6844904078468710413">https://juejin.cn/post/6844904078468710413</a></p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>github-plus 插件安装见 3.1 <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>上传时会将格式转成 png <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
 ]]></description>
                 
                 
