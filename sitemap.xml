@@ -4,8 +4,15 @@
   <url>
     <loc>https://example.com/categories/</loc>
   </url><url>
-    <loc>https://example.com/</loc>
+    <loc>https://example.com/posts/mac%E8%A3%85%E6%9C%BA%E6%B8%85%E5%8D%95/</loc>
+    <lastmod>2019-12-24T11:56:01+08:00</lastmod>
+  </url><url>
+    <loc>https://example.com/posts/</loc>
+    <lastmod>2019-12-24T11:56:01+08:00</lastmod>
   </url><url>
     <loc>https://example.com/tags/</loc>
+  </url><url>
+    <loc>https://example.com/</loc>
+    <lastmod>2019-12-24T11:56:01+08:00</lastmod>
   </url>
 </urlset>
