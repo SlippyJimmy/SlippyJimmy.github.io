@@ -23,10 +23,54 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Mon, 28 Aug 2023 17:32:05 &#43;0800</lastBuildDate>
+        <lastBuildDate>Wed, 06 Sep 2023 10:54:01 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
+        
+            <item>
+                <title>华硕FX50JX黑苹果Vertura13.5.1系统安装完善踩坑记录</title>
+                <link>https://example.com/posts/%E5%8D%8E%E7%A1%95fx50jx%E9%BB%91%E8%8B%B9%E6%9E%9Cvertura13.5.1%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E5%AE%8C%E5%96%84%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/</link>
+                <guid isPermaLink="true">https://example.com/posts/%E5%8D%8E%E7%A1%95fx50jx%E9%BB%91%E8%8B%B9%E6%9E%9Cvertura13.5.1%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E5%AE%8C%E5%96%84%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/</guid>
+                <pubDate>Wed, 06 Sep 2023 10:35:46 &#43;0800</pubDate>
+                
+                    <author>1824968955@qq.com (SlippyJimmy)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;h1 id=&#34;使用配置&#34;&gt;使用配置&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/jonalinux/Hackintosh-Asus-X550JX&#34;&gt;参考EFI&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;使用该EFI配置里面的&lt;code&gt;EFI-ventura.zip&lt;/code&gt;文件&lt;/p&gt;
+&lt;p&gt;安装后，声卡、网卡蓝牙及核显驱动存在问题，下面一一解决&lt;/p&gt;
+&lt;h2 id=&#34;声卡驱动&#34;&gt;声卡驱动&lt;/h2&gt;
+&lt;h2 id=&#34;网卡蓝牙驱动&#34;&gt;网卡&amp;amp;蓝牙驱动&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1de4y1X7mp&#34;&gt;参考教程&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;核显驱动&#34;&gt;核显驱动&lt;/h2&gt;
+&lt;p&gt;问题描述：核显仅为7M，画面很卡&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://imacos.top/2022/09/26/2310/&#34;&gt;参考教程&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;cpu睿频&#34;&gt;CPU睿频&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV143411F7aJ&#34;&gt;参考教程&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;
+&lt;p&gt;问题描述：开机二阶段分裂成8个苹果，进入系统后花屏&lt;/p&gt;
+&lt;p&gt;解决方案：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;bios中打开CSM&lt;/li&gt;
+&lt;li&gt;自定义EDID（待尝试）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;优化后EFI下载地址&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
         
             <item>
                 <title>Mac装机清单</title>
