@@ -4,13 +4,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">心微憩</title>
     <subtitle type="html">世界虽大，心惟于一隅独憩</subtitle>
-    <updated>2023-09-06T10:54:01&#43;08:00</updated>
-    <id>https://example.com/</id>
-    <link rel="alternate" type="text/html" href="https://example.com/" />
-    <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
+    <updated>2023-09-06T13:52:27&#43;08:00</updated>
+    <id>https://SlippyJimmy.github.io/</id>
+    <link rel="alternate" type="text/html" href="https://SlippyJimmy.github.io/" />
+    <link rel="self" type="application/atom&#43;xml" href="https://SlippyJimmy.github.io/atom.xml" />
     <author>
             <name>SlippyJimmy</name>
-            <uri>https://example.com/</uri>
+            <uri>https://SlippyJimmy.github.io</uri>
             
                 <email>1824968955@qq.com</email>
             </author>
@@ -18,34 +18,65 @@
     <generator uri="https://gohugo.io/" version="0.117.0">Hugo</generator>
         <entry>
             <title type="text">华硕FX50JX黑苹果Vertura13.5.1系统安装完善踩坑记录</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/%E5%8D%8E%E7%A1%95fx50jx%E9%BB%91%E8%8B%B9%E6%9E%9Cvertura13.5.1%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E5%AE%8C%E5%96%84%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/" />
-            <id>https://example.com/posts/%E5%8D%8E%E7%A1%95fx50jx%E9%BB%91%E8%8B%B9%E6%9E%9Cvertura13.5.1%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E5%AE%8C%E5%96%84%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/</id>
-            <updated>2023-09-06T10:53:51&#43;08:00</updated>
+            <link rel="alternate" type="text/html" href="https://SlippyJimmy.github.io/posts/%E5%8D%8E%E7%A1%95fx50jx%E9%BB%91%E8%8B%B9%E6%9E%9Cvertura13.5.1%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E5%AE%8C%E5%96%84%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/" />
+            <id>https://SlippyJimmy.github.io/posts/%E5%8D%8E%E7%A1%95fx50jx%E9%BB%91%E8%8B%B9%E6%9E%9Cvertura13.5.1%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E5%AE%8C%E5%96%84%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/</id>
+            <updated>2023-09-06T12:27:23&#43;08:00</updated>
             <published>2023-09-06T10:35:46&#43;08:00</published>
             <author>
                     <name>SlippyJimmy</name>
                     <uri>https://io-oi.me/</uri>
                     <email>1824968955@qq.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">使用配置 参考EFI 使用该EFI配置里面的EFI-ventura.zip文件 安装后，声……</summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">电脑配置 CPU Intel i5 4200H 显卡： 集显：HD4600 独显：NVIDIA 950M(不可用) 内存：4……</summary>
             
-                <content type="html">&lt;h1 id=&#34;使用配置&#34;&gt;使用配置&lt;/h1&gt;
+                <content type="html">&lt;h2 id=&#34;电脑配置&#34;&gt;电脑配置&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;CPU Intel i5 4200H&lt;/li&gt;
+&lt;li&gt;显卡：
+&lt;ul&gt;
+&lt;li&gt;集显：HD4600&lt;/li&gt;
+&lt;li&gt;独显：NVIDIA 950M(不可用)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;内存：4GB板载 + KingSton 4GB DDR3 1333MHz&lt;/li&gt;
+&lt;li&gt;硬盘 Intel 545S 256G SSD&lt;/li&gt;
+&lt;li&gt;网卡：原装蓝牙不可用，更换为BCM943225HMB&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;正常工作&#34;&gt;正常工作&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 睡眠&amp;amp;唤醒&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 触摸板&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Fn快捷键&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; CPU变频&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 亮度调节&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; HDMI输出&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; WIFI&amp;amp;蓝牙&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 音频&amp;amp;麦克风&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;参考配置&#34;&gt;参考配置&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/jonalinux/Hackintosh-Asus-X550JX&#34;&gt;参考EFI&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;使用该EFI配置里面的&lt;code&gt;EFI-ventura.zip&lt;/code&gt;文件&lt;/p&gt;
 &lt;p&gt;安装后，声卡、网卡蓝牙及核显驱动存在问题，下面一一解决&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;注：本人OpenCore版本为0.6.1,后续使用OCC保持版本一致&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;亮度调节&#34;&gt;亮度调节&lt;/h2&gt;
+&lt;p&gt;pass&lt;/p&gt;
 &lt;h2 id=&#34;声卡驱动&#34;&gt;声卡驱动&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/jonalinux/Hackintosh-Asus-X550JX/tree/main&#34;&gt;参考教程&lt;/a&gt;，使用Hackintool将&lt;code&gt;voodooHDA.kext&lt;/code&gt;安装到&lt;code&gt;L / E (Library / Extensions)&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id=&#34;网卡蓝牙驱动&#34;&gt;网卡&amp;amp;蓝牙驱动&lt;/h2&gt;
+&lt;p&gt;若为原装网卡，可使用参考EFI自行测试,如果是更换了其他网卡，可参考下面教程进行驱动&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1de4y1X7mp&#34;&gt;参考教程&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;网卡蓝牙可以驱动，显示支持隔空投送，但实现不了&lt;/p&gt;
 &lt;h2 id=&#34;核显驱动&#34;&gt;核显驱动&lt;/h2&gt;
 &lt;p&gt;问题描述：核显仅为7M，画面很卡&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://imacos.top/2022/09/26/2310/&#34;&gt;参考教程&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;cpu睿频&#34;&gt;CPU睿频&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV143411F7aJ&#34;&gt;参考教程&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;
+&lt;p&gt;使用工具：CPU-S、Hackintool
+&lt;a href=&#34;https://www.bilibili.com/video/BV143411F7aJ&#34;&gt;参考教程&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;花屏&#34;&gt;花屏&lt;/h2&gt;
 &lt;p&gt;问题描述：开机二阶段分裂成8个苹果，进入系统后花屏&lt;/p&gt;
 &lt;p&gt;解决方案：&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;bios中打开CSM&lt;/li&gt;
+&lt;li&gt;bios中打开CSM（会导致开机一阶段图标变大的问题）&lt;/li&gt;
 &lt;li&gt;自定义EDID（待尝试）&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;优化后EFI下载地址&lt;/p&gt;
@@ -65,8 +96,8 @@
     
         <entry>
             <title type="text">Mac装机清单</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/mac%E8%A3%85%E6%9C%BA%E6%B8%85%E5%8D%95/" />
-            <id>https://example.com/posts/mac%E8%A3%85%E6%9C%BA%E6%B8%85%E5%8D%95/</id>
+            <link rel="alternate" type="text/html" href="https://SlippyJimmy.github.io/posts/mac%E8%A3%85%E6%9C%BA%E6%B8%85%E5%8D%95/" />
+            <id>https://SlippyJimmy.github.io/posts/mac%E8%A3%85%E6%9C%BA%E6%B8%85%E5%8D%95/</id>
             <updated>2019-12-24T11:56:01&#43;08:00</updated>
             <published>0001-01-01T00:00:00&#43;00:00</published>
             <author>
