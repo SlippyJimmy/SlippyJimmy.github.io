@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">心微憩</title>
     <subtitle type="html">世界虽大，心惟于一隅独憩</subtitle>
-    <updated>2023-09-07T14:47:49&#43;08:00</updated>
+    <updated>2023-09-07T14:53:28&#43;08:00</updated>
     <id>https://SlippyJimmy.github.io/</id>
     <link rel="alternate" type="text/html" href="https://SlippyJimmy.github.io/" />
     <link rel="self" type="application/atom&#43;xml" href="https://SlippyJimmy.github.io/atom.xml" />
@@ -20,7 +20,7 @@
             <title type="text">华硕FX50JX黑苹果Vertura13.5.1系统安装完善踩坑记录</title>
             <link rel="alternate" type="text/html" href="https://SlippyJimmy.github.io/posts/%E5%8D%8E%E7%A1%95fx50jx%E9%BB%91%E8%8B%B9%E6%9E%9Cvertura13.5.1%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E5%AE%8C%E5%96%84%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/" />
             <id>https://SlippyJimmy.github.io/posts/%E5%8D%8E%E7%A1%95fx50jx%E9%BB%91%E8%8B%B9%E6%9E%9Cvertura13.5.1%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E5%AE%8C%E5%96%84%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/</id>
-            <updated>2023-09-07T14:47:16&#43;08:00</updated>
+            <updated>2023-09-07T14:53:23&#43;08:00</updated>
             <published>2023-09-06T10:35:46&#43;08:00</published>
             <author>
                     <name>SlippyJimmy</name>
@@ -57,8 +57,10 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/jonalinux/Hackintosh-Asus-X550JX&#34;&gt;参考EFI&lt;/a&gt;
 该EFI支持11-13系统，本人使用该EFI中的&lt;code&gt;EFI-ventura.zip&lt;/code&gt;文件进行配置&lt;/p&gt;
 &lt;p&gt;优化后EFI下载地址:&lt;a href=&#34;https://github.com/SlippyJimmy/Asus-FX50JX-Hackintosh&#34;&gt;Asus-FX50JX-Hackintosh&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;配置过程&#34;&gt;配置过程&lt;/h2&gt;
 &lt;p&gt;安装后，声卡、网卡蓝牙及核显驱动存在问题，下面逐一解决。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;使用工具: Hackintool、Kext Updater、PlistEditPro、OpenCore Configurator、CPU-S、opencore-patcher&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;使用工具&#34;&gt;使用工具&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Hackintool、Kext Updater、PlistEditPro、OpenCore Configurator、CPU-S、opencore-patcher&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;注：请选择和OC版本一致的OCC,本人OpenCore版本为0.6.1,使用OCC版本为2.10.0.0&lt;/em&gt;&lt;/p&gt;
 &lt;h3 id=&#34;声卡驱动&#34;&gt;声卡驱动&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/jonalinux/Hackintosh-Asus-X550JX/tree/main&#34;&gt;参考教程&lt;/a&gt;，使用Hackintool将&lt;code&gt;voodooHDA.kext&lt;/code&gt;安装到&lt;code&gt;L / E (Library / Extensions)&lt;/code&gt;&lt;/p&gt;

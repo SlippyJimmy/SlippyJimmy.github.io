@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Thu, 07 Sep 2023 14:47:49 &#43;0800</lastBuildDate>
+        <lastBuildDate>Thu, 07 Sep 2023 14:53:28 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://SlippyJimmy.github.io/rss.xml" />
         
@@ -66,8 +66,10 @@
 &lt;p&gt;&lt;a href=&#34;https://github.com/jonalinux/Hackintosh-Asus-X550JX&#34;&gt;参考EFI&lt;/a&gt;
 该EFI支持11-13系统，本人使用该EFI中的&lt;code&gt;EFI-ventura.zip&lt;/code&gt;文件进行配置&lt;/p&gt;
 &lt;p&gt;优化后EFI下载地址:&lt;a href=&#34;https://github.com/SlippyJimmy/Asus-FX50JX-Hackintosh&#34;&gt;Asus-FX50JX-Hackintosh&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;配置过程&#34;&gt;配置过程&lt;/h2&gt;
 &lt;p&gt;安装后，声卡、网卡蓝牙及核显驱动存在问题，下面逐一解决。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;使用工具: Hackintool、Kext Updater、PlistEditPro、OpenCore Configurator、CPU-S、opencore-patcher&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;使用工具&#34;&gt;使用工具&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Hackintool、Kext Updater、PlistEditPro、OpenCore Configurator、CPU-S、opencore-patcher&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;注：请选择和OC版本一致的OCC,本人OpenCore版本为0.6.1,使用OCC版本为2.10.0.0&lt;/em&gt;&lt;/p&gt;
 &lt;h3 id=&#34;声卡驱动&#34;&gt;声卡驱动&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/jonalinux/Hackintosh-Asus-X550JX/tree/main&#34;&gt;参考教程&lt;/a&gt;，使用Hackintool将&lt;code&gt;voodooHDA.kext&lt;/code&gt;安装到&lt;code&gt;L / E (Library / Extensions)&lt;/code&gt;&lt;/p&gt;
