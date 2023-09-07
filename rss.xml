@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Thu, 07 Sep 2023 11:34:43 &#43;0800</lastBuildDate>
+        <lastBuildDate>Thu, 07 Sep 2023 11:45:15 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://SlippyJimmy.github.io/rss.xml" />
         
@@ -48,7 +48,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;内存：4GB板载 + KingSton 4GB DDR3 1333MHz&lt;/li&gt;
-&lt;li&gt;硬盘 Intel 545S 256G SSD&lt;/li&gt;
+&lt;li&gt;硬盘：Intel 545S 256G SSD&lt;/li&gt;
 &lt;li&gt;网卡：原装蓝牙不可用，更换为BCM943225HMB&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;正常工作&#34;&gt;正常工作&lt;/h3&gt;
@@ -64,18 +64,16 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;参考配置&#34;&gt;参考配置&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/jonalinux/Hackintosh-Asus-X550JX&#34;&gt;参考EFI&lt;/a&gt;
-该EFI支持11，12，13系统，本人使用该EFI的&lt;code&gt;EFI-ventura.zip&lt;/code&gt;文件进行配置&lt;/p&gt;
+该EFI支持11-13系统，本人使用该EFI中的&lt;code&gt;EFI-ventura.zip&lt;/code&gt;文件进行配置&lt;/p&gt;
 &lt;p&gt;优化后EFI下载地址:&lt;a href=&#34;https://github.com/SlippyJimmy/Asus-FX50JX-Hackintosh&#34;&gt;Asus-FX50JX-Hackintosh&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;安装后，声卡、网卡蓝牙及核显驱动存在问题，下面一一解决&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;注：本人OpenCore版本为0.6.1,后续使用OCC保持版本一致&lt;/strong&gt;&lt;/p&gt;
-&lt;h3 id=&#34;亮度调节&#34;&gt;亮度调节&lt;/h3&gt;
-&lt;p&gt;pass&lt;/p&gt;
+&lt;p&gt;安装后，声卡、网卡蓝牙及核显驱动存在问题，下面逐一解决。&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;注：本人OpenCore版本为0.6.1,后续使用OCC保持版本一致&lt;/em&gt;&lt;/p&gt;
 &lt;h3 id=&#34;声卡驱动&#34;&gt;声卡驱动&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&#34;https://github.com/jonalinux/Hackintosh-Asus-X550JX/tree/main&#34;&gt;参考教程&lt;/a&gt;，使用Hackintool将&lt;code&gt;voodooHDA.kext&lt;/code&gt;安装到&lt;code&gt;L / E (Library / Extensions)&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&#34;网卡蓝牙驱动&#34;&gt;网卡&amp;amp;蓝牙驱动&lt;/h3&gt;
 &lt;p&gt;若为原装网卡，可使用参考EFI自行测试,如果是更换了其他网卡，可参考下面教程进行驱动&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/video/BV1de4y1X7mp&#34;&gt;参考教程&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;网卡蓝牙可以驱动，显示支持隔空投送，但实现不了&lt;/p&gt;
+&lt;p&gt;目前网卡蓝牙可以驱动，显示支持隔空投送，但实现不了&lt;/p&gt;
 &lt;h3 id=&#34;核显驱动&#34;&gt;核显驱动&lt;/h3&gt;
 &lt;p&gt;问题描述：核显仅为7M，画面很卡&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://imacos.top/2022/09/26/2310/&#34;&gt;参考教程&lt;/a&gt;&lt;/p&gt;
