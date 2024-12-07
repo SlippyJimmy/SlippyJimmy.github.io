@@ -3,7 +3,7 @@
     <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
     <meta charset="UTF-8" />
 
-    <meta name="generator" content="Hugo 0.117.0"><meta name="theme-color" content="#fff" />
+    <meta name="generator" content="Hugo 0.139.3"><meta name="theme-color" content="#fff" />
     <meta name="color-scheme" content="light dark">
 
     
@@ -58,9 +58,9 @@
     {
         "@context": "https://schema.org",
         "@type": "WebSite",
-        "datePublished": "1969-07-20T20:17:43+00:00",
+        "datePublished": "2023-09-06T10:35:46+08:00",
         "dateModified": "2023-09-07T14:55:46+08:00",
-        "url": "https://SlippyJimmy.github.io",
+        "url": "https://SlippyJimmy.github.io/",
         "description": "世界虽大，心惟于一隅独憩",
         "image": "https://SlippyJimmy.github.io/icons/apple-touch-icon.png",
         "author": {
@@ -229,7 +229,33 @@
 
                 
                 <summary class="summary p-summary">
-                    电脑配置 CPU Intel i5 4200H 显卡： 集显：HD4600 独显：NVIDIA 950M(不可用) 内存：板……
+                    <h2 id="电脑配置">电脑配置</h2>
+<ul>
+<li>CPU Intel i5 4200H</li>
+<li>显卡：
+<ul>
+<li>集显：HD4600</li>
+<li>独显：NVIDIA 950M(不可用)</li>
+</ul>
+</li>
+<li>内存：板载Samsung 4G DDR3 1333MHz + KingSton 4GB DDR3 1333MHz</li>
+<li>硬盘：Intel 545S 256G SSD</li>
+<li>网卡：原装蓝牙不可用，更换为BCM943225HMB</li>
+</ul>
+<h3 id="正常工作">正常工作</h3>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> 睡眠&amp;唤醒</li>
+<li><input checked="" disabled="" type="checkbox"> 触摸板</li>
+<li><input checked="" disabled="" type="checkbox"> Fn快捷键</li>
+<li><input checked="" disabled="" type="checkbox"> CPU变频</li>
+<li><input checked="" disabled="" type="checkbox"> 亮度调节</li>
+<li><input checked="" disabled="" type="checkbox"> HDMI输出</li>
+<li><input checked="" disabled="" type="checkbox"> WIFI&amp;蓝牙</li>
+<li><input checked="" disabled="" type="checkbox"> 音频&amp;麦克风</li>
+</ul>
+<h2 id="参考配置">参考配置</h2>
+<p><a href="https://github.com/jonalinux/Hackintosh-Asus-X550JX">参考EFI</a>
+该EFI支持11-13系统，本人使用该EFI中的<code>EFI-ventura.zip</code>文件进行配置</p>……
                 </summary>
                 
                     <div class="read-more-container">
@@ -276,7 +302,19 @@
 
                 
                 <summary class="summary p-summary">
-                    开发环境搭建 基于glepnir 一、安装前准备工作 安装ClashX并配置科学上网 配置终……
+                    <h1 id="开发环境搭建">开发环境搭建</h1>
+<p>基于<a href="https://github.com/glepnir/dotfiles">glepnir</a></p>
+<h2 id="一安装前准备工作">一、安装前准备工作</h2>
+<ol>
+<li>安装ClashX并配置科学上网</li>
+<li>配置终端网络代理</li>
+</ol>
+<pre tabindex="0"><code>export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
+</code></pre><h2 id="二安装dotfiles">二、安装dotfiles</h2>
+<ol>
+<li>clone dotfiles并安装</li>
+</ol>
+<p><a href="https://github.com/SlippyJimmy/dotfiles">mydotfiles</a></p>……
                 </summary>
                 
                     <div class="read-more-container">
@@ -323,7 +361,9 @@
 
                 
                 <summary class="summary p-summary">
-                    Surfingkeys -- 用 javascript 和键盘扩展你的 chrome Surfingkeys 和现有的一些插件一样，让你尽可能的通过键盘来使用 Chrome/Firefox 浏览器，……
+                    <h1 id="surfingkeys----用-javascript-和键盘扩展你的-chrome">Surfingkeys -- 用 javascript 和键盘扩展你的 chrome</h1>
+<p><a href="https://github.com/brookhong/Surfingkeys/actions?query=workflow%3A%22Node+CI%22+branch%3Amaster"><img src="https://github.com/brookhong/Surfingkeys/workflows/Node%20CI/badge.svg?branch=master" alt="Node CI"></a></p>
+<p>Surfingkeys 和现有的一些插件一样，让你尽可能的通过键盘来使用 Chrome/Firefox 浏览器，比如跳转网页，上下左右滚屏。但不只是给 vim 用户使用，Surfingkeys 的基本特性是让你自己写一段 Javascript 脚本，然后通过<code>mapkey</code>映射到某些按键。之后当你按了那几个键以后，对应的 Javascript 脚本就会被执行。</p>……
                 </summary>
                 
                     <div class="read-more-container">
@@ -370,7 +410,51 @@
 
                 
                 <summary class="summary p-summary">
-                    MAC装机清单 一、开发类 iTerm2 XCode 1 $ xcode-select --install Homebrew 1 $ /usr/bin/ruby -e &#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&#34; 更换国内源 1 2 3 4 5 6 7 git -C &#34;$(brew --repo)&#34;……
+                    <h1 id="mac装机清单">MAC装机清单</h1>
+<h2 id="一开发类">一、开发类</h2>
+<h3 id="iterm2">iTerm2</h3>
+<h3 id="xcode">XCode</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ xcode-select --install
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="homebrew">Homebrew</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ /usr/bin/ruby -e <span class="s2">&#34;</span><span class="k">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install<span class="k">)</span><span class="s2">&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>更换国内源</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">git -C <span class="s2">&#34;</span><span class="k">$(</span>brew --repo<span class="k">)</span><span class="s2">&#34;</span> remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">git -C <span class="s2">&#34;</span><span class="k">$(</span>brew --repo homebrew/core<span class="k">)</span><span class="s2">&#34;</span> remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">git -C <span class="s2">&#34;</span><span class="k">$(</span>brew --repo homebrew/cask<span class="k">)</span><span class="s2">&#34;</span> remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-cask.git
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">brew update
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><a href="https://lug.ustc.edu.cn/wiki/mirrors/help/brew.git">参考</a></p>……
                 </summary>
                 
                     <div class="read-more-container">
@@ -396,7 +480,7 @@
             
     <footer id="footer" class="footer">
         <div class="footer-inner">
-            <div class="site-info">©&nbsp;1969–2023&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;SlippyJimmy</div><div class="powered-by">Powered by <a href="https://github.com/gohugoio/hugo" target="_blank" rel="noopener">Hugo</a> | Theme is <a href="https://github.com/reuixiy/hugo-theme-meme" target="_blank" rel="noopener">MemE</a></div><div class="site-copyright"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a></div>
+            <div class="site-info">©&nbsp;1969–2024&nbsp;<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="icon footer-icon"><path d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z"/></svg>&nbsp;SlippyJimmy</div><div class="powered-by">Powered by <a href="https://github.com/gohugoio/hugo" target="_blank" rel="noopener">Hugo</a> | Theme is <a href="https://github.com/reuixiy/hugo-theme-meme" target="_blank" rel="noopener">MemE</a></div><div class="site-copyright"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" target="_blank" rel="noopener">CC BY-NC-SA 4.0</a></div>
 
             
     
